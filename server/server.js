@@ -12,6 +12,9 @@ const api = async (req, res) => {
   const payload = await fetchingAnswersTo(question);
   res.json(payload);
 }
+const noApi = (_, res) => res.send(`<p>Please visit the <a href='http://localhost:1337/'>Wolfie</a> website</p>`);
 
 app.get('/api', api);
+app.get('/*', noApi);
+
 app.listen(8008);

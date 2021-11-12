@@ -1,7 +1,9 @@
+require('dotenv').config()
+
 module.exports = {
   wolf: {
     base: 'http://api.wolframalpha.com/v1/result',
-    key: '?appid=L3TT43-PQ3VAU5LRE&i=',
+    key: process.env.API_KEY,
     mockUrl: 'http://api.wolframalpha.com/v1/result?appid=DEMO&i=Is+a+tomato+a+fruit%3F&',
   },
   wiki: {
