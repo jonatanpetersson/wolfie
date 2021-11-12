@@ -1,0 +1,19 @@
+.about {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  margin-bottom: 1rem;
+  /* font-weight: 700; */
+  /* font-variant: small-caps; */
+}
+
+.about__paragraph {
+  text-align: justify;
+  margin: 0.5rem 0;
+}

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav/Nav';
+import './Footer.css'
 
 export default function Footer() {
   return (
-    <div>
-      
-    </div>
+    <footer className="root__footer">
+      <Nav />
+    </footer>
   )
 }

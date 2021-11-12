@@ -1,0 +1,14 @@
+.root__header {
+  width: 100%;
+  padding-bottom: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.root__header-title {
+font-weight: 700;
+font-variant: unicase;
+}

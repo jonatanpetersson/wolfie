@@ -1,0 +1,85 @@
+.answer {
+  max-width: 480px;
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px black solid;
+  border-radius: 0.5rem;
+}
+
+.answer__question {
+  padding-bottom: 0.5rem;
+}
+
+.answer__wolf-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer__text-wrapper {
+  padding-bottom: 1rem;
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer__button-wrapper {
+  height: 100%;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.answer__save, .answer__copy, .answer__expand {
+  border: none;
+  background-color: white;
+  padding: 0.1rem;
+  font-size: 1.5rem;
+}
+
+.answer__wiki-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer__wiki {
+  padding-bottom: 0.5rem;
+}
+
+.answer__link {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  text-align: right;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.answer__link:visited {
+  all: unset;
+  text-decoration: none;
+}
+
+.answer_img {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
