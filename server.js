@@ -17,4 +17,4 @@ const noApi = (_, res) => res.send(`<p>Please visit the <a href='http://localhos
 app.get('/api', api);
 app.get('/*', noApi);
 
-app.listen(8008);
+app.listen(process.env.PORT || 3000);
