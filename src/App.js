@@ -13,7 +13,7 @@ function App() {
   const fetchAndSetAnswers = async () => {
     axios({
       method: 'get',
-      url: 'http://localhost:8008/api',
+      url: 'https://wolfie-api.herokuapp.com/api',
       params: { question }
     }).then(res => {
       setQuestion('');
