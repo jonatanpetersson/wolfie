@@ -16,9 +16,6 @@ export default function Answer({ answers, question }) {
   }
 
   const copy = () => navigator.clipboard.writeText(answers.wolfData);
-  const save = () => {
-
-  }
 
   return (
     <article className={answers && !question ? "answer" : "hidden"}>
