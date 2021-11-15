@@ -31,7 +31,7 @@ module.exports = answersTo = async question => {
     return {
       id,
       question,
-      wolfData: wolfData ? wolfData : `I can't give you a short answer to that.`,
+      wolfData: wolfData ? wolfData : `I can't give you an answer to that.`,
       wikiTitle: false,
       wikiSummary: false,
       wikiUrl: false,

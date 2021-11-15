@@ -28,7 +28,7 @@ export default function Answer({ answers, question }) {
           {answers && !question ? (<p>- {answers.wolfData}</p>) : ('')}
         </div>
         <div className="answer__button-wrapper">
-          {answers && !question ? (<button className="answer__save material-icons" onClick={save}>&#xe598;</button>) : ('')}
+          {/* {answers && !question ? (<button className="answer__save material-icons" onClick={save}>&#xe598;</button>) : ('')} */}
           {answers && !question ? (<button className="answer__copy material-icons" onClick={copy}>&#xe14d;</button>) : ('')}
           {answers.wikiSummary && !question ? (<button className="answer__expand material-icons" onClick={expandAnswer}>&#xe94f;</button>) : ('')}
         </div>

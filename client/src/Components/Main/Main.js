@@ -7,12 +7,12 @@ import About from './About/About';
 
 export default function Main({ setQuestion, answers, question }) {
   return (
-    <main className="root__main">
-      <Routes>
-        <Route path='/' element={<Ask setQuestion={setQuestion} answers={answers} question={question} />} />
-        <Route path='/saved' element={<Saved />} />
-        <Route path='/about' element={<About />} />
-      </Routes>
-    </main>
+      <main className="root__main">
+        <Routes>
+          <Route path='/' element={<Ask setQuestion={setQuestion} answers={answers} question={question} />} />
+          <Route path='/saved' element={<Saved />} />
+          <Route path='/about' element={<About />} />
+        </Routes>
+      </main >
   )
 }

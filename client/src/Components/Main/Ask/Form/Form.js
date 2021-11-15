@@ -14,7 +14,7 @@ export default function Form({ setQuestion }) {
     <form className="form" onSubmit={handleSubmit}>
       <h3 className="form__title">What would you like to know?</h3>
       <div className="form-wrapper">
-        <input className="form__input" type="text" />
+        <input className="form__input" autoFocus type="text" />
         <input className="form__submit material-icons" type="submit" value="&#xe8b6;" />
       </div>
     </form>
